@@ -41,5 +41,5 @@ jobs:
         file: ./Dockerfile
     # Push is a shorthand for --output=type=registry
         push: true
-    # List of tags
+    # List of tags  
         tags: morigi/go_ci:${{github.ref_name}}
